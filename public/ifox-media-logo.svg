@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 210" fill="none" className="w-full h-auto">
+  <defs>
+    <linearGradient id="foxOrangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A00" />
+      <stop offset="100%" stop-color="#FF4500" />
+    </linearGradient>
+    <linearGradient id="lineLeftGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A00" stop-opacity="0" />
+      <stop offset="100%" stop-color="#FF5A00" stop-opacity="1" />
+    </linearGradient>
+    <linearGradient id="lineRightGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5A00" stop-opacity="1" />
+      <stop offset="100%" stop-color="#FF5A00" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Wordmark -->
+  <g id="wordmark">
+    <!-- IF (Dark Black) -->
+    <text x="35" y="125" font-family="'Outfit', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="118" fill="#111111" letter-spacing="-2">IF</text>
+    
+    <!-- OX (Vibrant Fox Orange) -->
+    <text x="145" y="125" font-family="'Outfit', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="118" fill="url(#foxOrangeGrad)" letter-spacing="-2">OX</text>
+    
+    <!-- Vertical Divider -->
+    <rect x="360" y="38" width="8" height="92" rx="2" fill="#FF5200" />
+    
+    <!-- MEDIA (Dark Black) -->
+    <text x="390" y="125" font-family="'Outfit', 'Arial Black', -apple-system, sans-serif" font-weight="900" font-size="118" fill="#111111" letter-spacing="-2">MEDIA</text>
+  </g>
+
+  <!-- Tagline: CREATE • GROW • TRANSFORM -->
+  <g id="tagline">
+    <!-- Left Tapered Line -->
+    <polygon points="35,160 145,158 145,162" fill="url(#lineLeftGrad)" />
+    
+    <!-- Tagline Text -->
+    <text x="380" y="166" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-weight="800" font-size="20" fill="#111111" letter-spacing="9" text-anchor="middle">
+      CREATE <tspan fill="#FF5200" font-weight="900">•</tspan> GROW <tspan fill="#FF5200" font-weight="900">•</tspan> TRANSFORM
+    </text>
+    
+    <!-- Right Tapered Line -->
+    <polygon points="615,158 725,160 615,162" fill="url(#lineRightGrad)" />
+  </g>
+</svg>
